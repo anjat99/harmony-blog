@@ -1,0 +1,6 @@
+@import "variables.css";
+@import "base.css";
+@import 'header.css';
+@import "content.css";
+@import "admin.css";
+@import "footer.css";

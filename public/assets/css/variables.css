@@ -1,0 +1,23 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --zero-pexels: 0px;
+    --hundred-percent: 100%;
+    --red:  #f44336;
+	--purple: #673ab7;
+	--grey: #5c5a5a;
+	--marker: #fcd307;
+	--orange: rgb(255, 145, 0);
+}
+@font-face {
+    font-family: fontLogo;
+    src: url("../fonts/DancingScript-Bold.ttf");
+}
+@font-face {
+    font-family: fontNav;
+    src: url("../fonts/Raleway-Bold.ttf");
+}
+@font-face {
+    font-family: fontBlog;
+    src: url("../fonts/PoynterText\ Regular.ttf");
+}

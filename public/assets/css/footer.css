@@ -1,0 +1,29 @@
+.footer{
+  text-align: center;
+  background: #303036;
+  color: #d3d3d3;
+}
+.footer .footer__title{
+  font-size: 1.5rem;
+}
+.footer .about .footer__about__desc{
+  font-size: .9rem;
+}
+.footer .footer__socials i{
+    font-size:16px;
+    display: inline-block;
+      width: 40px;
+      height: 40px;
+    line-height:40px;
+      text-align: center;
+      border: 1px solid #ffffff;
+    border-radius: 50%;
+    color:#fff;
+    margin: 1%;
+}
+
+.footer__logo{
+  font-size: 2rem;
+  text-transform: none;
+  font-family: 'fontLogo';
+}

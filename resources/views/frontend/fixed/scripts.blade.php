@@ -1,0 +1,19 @@
+<script src="{{ asset('assets/js/core/jquery-3.6.0.min.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="{{ asset('dist/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
+
+<script>
+    const token = $('meta[name="csrf-token"]').attr('content');
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': token
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    var url = `{{ url("/") }}`
+    var publicImagesStorage = `{{ url("/storage/assets/img/post/") }}`
+</script>
+

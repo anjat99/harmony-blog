@@ -1,0 +1,103 @@
+@media only screen and (max-width: 1100px){
+    aside.blog__post__cat{
+        bottom:40%;
+    }
+}
+@media only screen and (max-width: 970px){
+    aside.blog__post__cat{
+        bottom:50%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #circles {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      bottom: 20%;
+      flex-direction: row;
+      left: 0;
+  }
+  .line::before {
+      display: none;
+  }
+  .content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .content__sidebar {
+    order:1;
+  }
+  .content .content__blogs{
+    order: 2;
+  }
+  .blog__post{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog__post__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:80%;
+  }
+  .login__content, .register__content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .login__content .login__image,
+  .register__content .register__image{
+      width: 100%;
+      order: 1;
+
+  }
+  .login__content .login__form,
+  .register__content .register__form{
+      order: 2;
+  }
+  .register__image__img, .login__image__img{
+      transform:scaleX(-1);
+      -moz-transform:scaleX(-1);
+      -ms-transform:scaleX(-1);
+      -o-transform:scaleX(-1);
+      -webkit-transform:scaleX(-1);
+      filter:contrast(1);
+      -webkit-filter:contrast(1);
+  }
+  .login__image,
+  .register__image{
+      height:500px;
+  }
+  .register__image__title,
+  .login__image__title{
+        flex-direction: row;
+        justify-content: center;
+        top:10%;
+        left:25%;
+        width: 50%;
+        margin-top: 5%;
+  }
+  .register__image__arrow,
+  .login__image__arrow{
+        display: none;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  aside.blog__post__cat{
+      bottom: 35%;
+      left: 5%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .content__title{
+    font-size:1.8em;
+    }
+}
+
